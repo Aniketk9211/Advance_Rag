@@ -74,7 +74,7 @@ Two import conventions coexist and require different `sys.path` setups:
 
 Running a file under `src/graph/` directly (`python src/graph/node/retrieve.py`) fails with
 `ModuleNotFoundError: No module named 'graph'` because direct execution only puts the script's own
-directory on `sys.path`. To run such a file manually from the project root:
+directory on `sys.path`. To run such a file manually from the project root directory:
 
 ```powershell
 $env:PYTHONPATH = "src"
