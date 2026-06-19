@@ -5,5 +5,5 @@ load_dotenv()
 from graph.graphapp import app
 
 if __name__ == "__main__":
-    print("Hello Advanced RAG")
-    print(app.invoke(input={"question": "types of agent memory?"}))
+    print("HELLO ADAPTIVE RAG")
+    print(app.invoke(input={"question": "what is agent memory?"}))
