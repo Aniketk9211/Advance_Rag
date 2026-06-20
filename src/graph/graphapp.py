@@ -87,4 +87,4 @@ graph.add_edge(WEBSEARCH, GENERATE)
 
 app = graph.compile()
 
-app.get_graph().draw_mermaid_png(output_file_path="self_graph.png")
+# app.get_graph().draw_mermaid_png(output_file_path="self_graph.png")
